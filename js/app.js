@@ -25,8 +25,8 @@ const videos = Array.from({ length: 23 }, (_, index) => {
     id: `zion-${n}`,
     title: `${titleMap[category]} ${n}`,
     category,
-    src: `https://zion-portfolio-g25tlbudi.vercel.app/assets/videos/zion-${n}.mp4`,
-    thumb: `https://zion-portfolio-g25tlbudi.vercel.app/assets/thumbs/zion-${n}.jpg`
+    src: `assets/videos/zion-${n}.mp4`,
+    thumb: `assets/thumbs/zion-${n}.jpg`
   };
 });
 
