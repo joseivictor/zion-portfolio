@@ -26,7 +26,7 @@ const videos = Array.from({ length: 23 }, (_, index) => {
     title: `${titleMap[category]} ${n}`,
     category,
     src: "assets/story/zion-working-02.mp4",
-    thumb: "assets/story/zion-working-02.jpg"
+    thumb: `assets/thumbs/zion-${n}.jpg`
   };
 });
 
