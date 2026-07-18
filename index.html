@@ -1,0 +1,340 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>Zion Lucas | Portfólio de vídeos curtos</title>
+  <meta name="description" content="Portfólio de Zion Lucas, editor de vídeos curtos para criadores de conteúdo e empresários.">
+  <meta property="og:title" content="Zion Lucas | Portfólio de vídeos curtos">
+  <meta property="og:description" content="Editor de vídeos curtos para criadores de conteúdo e empresários.">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://zion-portfolio.vercel.app/">
+  <meta property="og:image" content="https://zion-portfolio-g25tlbudi.vercel.app/assets/zion-logo.svg">
+  <meta name="theme-color" content="#05040b">
+  <link rel="canonical" href="https://zion-portfolio.vercel.app/">
+  <link rel="icon" type="image/svg+xml" href="https://zion-portfolio-g25tlbudi.vercel.app/assets/zion-logo.svg">
+  <link rel="apple-touch-icon" href="https://zion-portfolio-g25tlbudi.vercel.app/assets/zion-logo.svg">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@500;700;800;900&family=Poppins:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+  <style>
+    .plan-cta-row {
+      width: min(100%, 980px);
+      margin: clamp(2rem, 6vw, 4rem) auto;
+      padding: 0 1.25rem;
+      display: flex;
+      justify-content: center;
+    }
+
+    .plan-cta-row + .proof-grid {
+      margin-top: clamp(2.5rem, 7vw, 5rem);
+    }
+
+    .plan-cta-button {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      min-height: 54px;
+      padding: 0.95rem 2.15rem;
+      border-radius: 999px;
+      color: #fff;
+      font-weight: 900;
+      font-size: clamp(1rem, 4.2vw, 1.2rem);
+      letter-spacing: 0;
+      text-transform: uppercase;
+      background: linear-gradient(135deg, var(--purple), var(--purple-2));
+      border: 1px solid rgba(255,255,255,.22);
+      box-shadow: 0 0 0 0 rgba(176,68,255,.72), 0 18px 46px rgba(176,68,255,.34);
+      animation: planCtaPulse 1.15s ease-in-out infinite;
+    }
+
+    .plan-cta-button:focus-visible {
+      outline: 3px solid rgba(255,255,255,.8);
+      outline-offset: 4px;
+    }
+
+    @keyframes planCtaPulse {
+      0%, 100% { transform: scale(1); box-shadow: 0 0 0 0 rgba(176,68,255,.62), 0 18px 46px rgba(176,68,255,.34); }
+      50% { transform: scale(1.045); box-shadow: 0 0 0 12px rgba(176,68,255,0), 0 24px 62px rgba(176,68,255,.5); }
+    }
+
+    @media (prefers-reduced-motion: reduce) {
+      .plan-cta-button { animation: none; }
+    }
+  </style>
+</head>
+<body>
+  <div class="site-bg" aria-hidden="true">
+    <span class="stars"></span>
+    <span class="planet"></span>
+    <span class="moon-floor"></span>
+    <span class="float-icon icon-instagram">IG</span>
+    <span class="float-icon icon-youtube">YT</span>
+    <span class="float-icon icon-reels">9:16</span>
+  </div>
+
+  <header class="topbar">
+    <a class="logo" href="#inicio">ZION<span>LUCAS</span></a>
+    <nav>
+      <a href="#portfolio">Portfólio</a>
+      <a href="#para-quem-e">Para quem é</a>
+      <a href="#pacotes">Pacotes</a>
+      <a href="#sobre">Sobre</a>
+    </nav>
+    <a class="top-cta" href="#pacotes">Escolher pacote</a>
+  </header>
+
+  <main id="inicio">
+    <section class="hero">
+      <div class="hero-copy">
+        <h1>Cortes de <span class="text-accent">live</span> e <span class="text-accent">podcast</span> prontos para postar</h1>
+        <p>Transformo lives e episódios em cortes verticais com gancho nos <span class="text-accent">3 primeiros segundos</span>, legenda e ritmo — pacotes de <span class="text-accent">8, 16 ou 30 por mês</span>.</p>
+        <div class="hero-actions">
+          <a class="purple-btn purple-btn-stack" href="#pacotes"><span>Escolher pacote</span><small>a partir de R$ 697/mês</small></a>
+          <a class="soft-contact" href="#portfolio">Ver portfólio</a>
+        </div>
+      </div>
+      <div class="hero-visual" aria-label="Zion Lucas trabalhando com cliente">
+        <video src="https://zion-portfolio-g25tlbudi.vercel.app/assets/story/hero-upload.mp4" poster="https://zion-portfolio-g25tlbudi.vercel.app/assets/story/hero-upload.jpg" muted autoplay loop playsinline preload="auto"></video>
+        <span class="video-proof-label">O que um vídeo do Zion gerou</span>
+        <button class="audio-toggle" type="button" aria-label="Ativar áudio do vídeo">Ouvir áudio</button>
+        <span class="audio-hint">Ative o áudio e escute a entrega por trás do vídeo</span>
+        <div class="helmet-glow"></div>
+      </div>
+    </section>
+
+    <section class="brand-row" aria-label="Clientes e trabalhos do portfólio">
+      <div class="edited-mark">Clientes que <span class="text-accent">já editei</span></div>
+      <a class="brand-person" href="https://instagram.com/jhonricky" target="_blank" rel="noopener">
+        <img src="https://zion-portfolio-g25tlbudi.vercel.app/assets/people/jhon-ricky-profile.jpg" alt="Jhon Ricky">
+        <strong>Jhon Ricky</strong>
+        <span>@jhonricky</span>
+        <small>26K seguidores</small>
+      </a>
+      <a class="brand-person" href="https://instagram.com/luigimanginifenomeno" target="_blank" rel="noopener">
+        <img src="https://zion-portfolio-g25tlbudi.vercel.app/assets/people/luigi.jpg" alt="Luigi Mangini">
+        <strong>Luigi Mangini</strong>
+        <span>@luigimanginifenomeno</span>
+        <small>930K seguidores</small>
+      </a>
+      <a class="brand-person" href="https://instagram.com/luciana_garciaa" target="_blank" rel="noopener">
+        <img src="https://zion-portfolio-g25tlbudi.vercel.app/assets/people/luciana.jpg" alt="Luciana Garcia">
+        <strong>Dra. Luciana Garcia</strong>
+        <span>@luciana_garciaa</span>
+        <small>362K seguidores</small>
+      </a>
+    </section>
+
+    <div class="plan-cta-row">
+      <a class="plan-cta-button" href="#pacotes">Escolher plano</a>
+    </div>
+
+    <section class="proof-grid">
+      <article class="featured-proof">
+        <img src="https://zion-portfolio-g25tlbudi.vercel.app/assets/people/jhon-zion.jpg" alt="Zion Lucas com Jhon Ricky">
+        <div>
+          <small>Cliente atual em destaque</small>
+          <strong>Zion editando para Jhon Ricky</strong>
+          <span>Zion grava, seleciona os melhores momentos e edita cortes para Jhon Ricky, sócio de Pablo Marçal e nome forte no mercado de networking e empreendedorismo.</span>
+          <div class="partner-note">
+            <img src="https://zion-portfolio-g25tlbudi.vercel.app/assets/people/jhon-pablo.png" alt="Jhon Ricky com Pablo Marçal">
+            <p>Um trabalho feito para clientes que já carregam autoridade precisa de edição com ritmo, clareza e posicionamento. Esse é o tipo de entrega que o Zion coloca na tela.</p>
+          </div>
+        </div>
+      </article>
+    </section>
+
+    <div class="plan-cta-row">
+      <a class="plan-cta-button" href="#pacotes">Escolher plano</a>
+    </div>
+
+    <section class="marquee" aria-hidden="true">
+      <div>
+        <span>Portfólio</span><span>Portfólio</span><span>Portfólio</span><span>Portfólio</span><span>Portfólio</span><span>Portfólio</span><span>Portfólio</span><span>Portfólio</span>
+      </div>
+      <div class="blurred">
+        <span>Portfólio</span><span>Portfólio</span><span>Portfólio</span><span>Portfólio</span><span>Portfólio</span><span>Portfólio</span><span>Portfólio</span><span>Portfólio</span>
+      </div>
+    </section>
+
+    <section class="portfolio" id="portfolio">
+      <div class="portfolio-head">
+        <h2>Produções de maior <span class="text-accent">destaque</span></h2>
+        <div class="portfolio-controls" aria-label="Navegar vídeos">
+          <button id="prevVideos" type="button" aria-label="Vídeos anteriores">‹</button>
+          <button id="nextVideos" type="button" aria-label="Próximos vídeos">›</button>
+        </div>
+      </div>
+      <div class="video-grid" id="videoGrid"></div>
+    </section>
+
+    <section class="fit" id="para-quem-e">
+      <div class="fit-panel">
+        <header class="fit-head">
+          <small>Leia antes de contratar</small>
+          <h2>Para quem é · Para quem não é</h2>
+          <p>Trabalho com quem vê conteúdo como construção de marca — não com quem fecha só pelo preço.</p>
+        </header>
+        <div class="fit-columns">
+          <div class="fit-col fit-yes">
+            <h3>É para você se</h3>
+            <ul>
+              <li>Você trata conteúdo como posicionamento, não só presença.</li>
+              <li>Quer presença consistente nas redes, com direção clara.</li>
+              <li>Vê a edição como parte da estratégia da sua marca.</li>
+            </ul>
+          </div>
+          <div class="fit-col fit-no">
+            <h3>Não é para você se</h3>
+            <ul>
+              <li>Você decide só pelo menor preço.</li>
+              <li>Quer vídeo solto, sem continuidade nem padrão.</li>
+              <li>Não liga para autoridade e percepção no mercado.</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="packages" id="pacotes" aria-labelledby="packages-title">
+      <header class="packages-head">
+        <small>Planos mensais</small>
+        <h2 id="packages-title">Quantos cortes você precisa <span class="text-accent">por mês</span>?</h2>
+        <p>Você manda a live ou o episódio. Recebe cortes 9:16 com gancho nos 3s e legendas.</p>
+      </header>
+      <div class="packages-grid">
+        <article class="package-card">
+          <div class="package-top">
+            <span class="package-tier">Start</span>
+            <h3>Presença</h3>
+          </div>
+          <p class="package-quantity"><span class="package-quantity-num">8</span> cortes<span class="package-quantity-period">/ mês</span></p>
+          <div class="package-price">
+            <span class="package-currency">R$</span>
+            <span class="package-amount">697</span>
+            <span class="package-period">/ mês</span>
+          </div>
+          <p class="package-unit">R$ 87 por corte</p>
+          <ul class="package-list">
+            <li>Seleção dos melhores momentos</li>
+            <li>Formato 9:16</li>
+            <li>Legendas</li>
+            <li>Gancho nos 3 primeiros segundos</li>
+            <li>E muito mais</li>
+          </ul>
+          <a class="package-cta" href="https://wa.me/5511910417123?text=Ol%C3%A1%21%20Quero%20o%20plano%20*Presen%C3%A7a%20(Start)*%20%E2%80%94%20R%24%20697%2Fm%C3%AAs%20%E2%80%94%20de%20cortes%20de%20live%20e%20podcast.%20Vi%20no%20site%20do%20Zion%20Lucas.">Quero o plano Presença</a>
+        </article>
+
+        <article class="package-card package-featured">
+          <div class="package-badge">Recomendado</div>
+          <div class="package-top">
+            <span class="package-tier">Scale</span>
+            <h3>Constância</h3>
+          </div>
+          <p class="package-quantity"><span class="package-quantity-num">16</span> cortes<span class="package-quantity-period">/ mês</span></p>
+          <div class="package-price">
+            <span class="package-currency">R$</span>
+            <span class="package-amount">1.197</span>
+            <span class="package-period">/ mês</span>
+          </div>
+          <p class="package-unit">R$ 75 por corte</p>
+          <ul class="package-list">
+            <li>Seleção dos melhores momentos</li>
+            <li>Formato 9:16</li>
+            <li>Legendas</li>
+            <li>Gancho nos 3 primeiros segundos</li>
+            <li>E muito mais</li>
+          </ul>
+          <a class="package-cta package-cta-featured" href="https://wa.me/5511910417123?text=Ol%C3%A1%21%20Quero%20o%20plano%20*Const%C3%A2ncia%20(Scale)*%20%E2%80%94%20R%24%201.197%2Fm%C3%AAs%20%E2%80%94%20de%20cortes%20de%20live%20e%20podcast.%20Vi%20no%20site%20do%20Zion%20Lucas.">Quero o plano Constância</a>
+        </article>
+
+        <article class="package-card">
+          <div class="package-top">
+            <span class="package-tier">Authority</span>
+            <h3>Alta frequência</h3>
+          </div>
+          <p class="package-quantity"><span class="package-quantity-num">30</span> cortes<span class="package-quantity-period">/ mês</span></p>
+          <div class="package-price">
+            <span class="package-currency">R$</span>
+            <span class="package-amount">1.997</span>
+            <span class="package-period">/ mês</span>
+          </div>
+          <p class="package-unit">R$ 67 por corte</p>
+          <ul class="package-list">
+            <li>Seleção dos melhores momentos</li>
+            <li>Formato 9:16</li>
+            <li>Legendas</li>
+            <li>Gancho nos 3 primeiros segundos</li>
+            <li>Prioridade na fila e muito mais</li>
+          </ul>
+          <a class="package-cta" href="https://wa.me/5511910417123?text=Ol%C3%A1%21%20Quero%20o%20plano%20*Alta%20frequ%C3%AAncia%20(Authority)*%20%E2%80%94%20R%24%201.997%2Fm%C3%AAs%20%E2%80%94%20de%20cortes%20de%20live%20e%20podcast.%20Vi%20no%20site%20do%20Zion%20Lucas.">Quero o plano Alta frequência</a>
+        </article>
+      </div>
+      <p class="packages-note">Valores mensais recorrentes. Material bruto enviado por você. Pacotes não incluem gravação nem gestão de tráfego.</p>
+    </section>
+
+    <section class="case connection-case">
+      <div class="connection-art" aria-label="Conexão gerada por um corte editado por Zion">
+        <div class="connection-caption">Um corte editado virou ponte real</div>
+        <article class="profile-node luigi-node">
+          <img src="https://zion-portfolio-g25tlbudi.vercel.app/assets/people/luigi.jpg" alt="Luigi Mangini">
+          <strong>Luigi Mangini</strong>
+          <span>@luigimanginifenomeno</span>
+          <small>Cliente do Zion</small>
+        </article>
+        <div class="connection-line"><span></span></div>
+        <article class="profile-node joao-node">
+          <img src="https://zion-portfolio-g25tlbudi.vercel.app/assets/people/joao-kepler.jpg" alt="João Kepler">
+          <strong>João Kepler</strong>
+          <span>@joaokepler</span>
+          <small>Conexão do cliente</small>
+        </article>
+        <div class="proof-stamp">Resultado gerado por edição</div>
+      </div>
+      <div>
+        <h2>Um corte editado pelo Zion gerou autoridade.</h2>
+        <p>Em um trabalho para Luigi Mangini, a edição ajudou a mensagem certa chegar até João Kepler, um dos maiores investidores do Brasil. O conteúdo gerou identificação, abriu conversa e fortaleceu uma conexão de negócio.</p>
+        <a class="purple-btn" href="#pacotes">Escolher pacote</a>
+      </div>
+    </section>
+
+    <section class="about" id="sobre">
+      <div class="about-media">
+        <video src="https://zion-portfolio-g25tlbudi.vercel.app/assets/story/zion-working-02.mp4" poster="https://zion-portfolio-g25tlbudi.vercel.app/assets/story/zion-working-02.jpg" muted autoplay loop playsinline preload="auto"></video>
+      </div>
+      <div class="about-copy">
+        <h2>Prazer,<br>Zion Lucas.</h2>
+        <p>Editor de vídeos há 2 anos, especializado em vídeos curtos, cortes de live e cortes de podcast.</p>
+        <p><b>Ajudo criadores e empresários a produzirem mais conteúdo sem depender de gravar o próximo vídeo toda hora.</b></p>
+        <p>Você envia o bruto, objetivo, referência e prazo. Eu separo os melhores cortes, edito, envio a primeira versão e ajusto com clareza.</p>
+        <div class="edit-timeline" aria-label="Processo de edição de Zion Lucas">
+          <div class="timeline-head">
+            <span>Bruto</span>
+            <span>Cortes escolhidos</span>
+            <span>Entrega</span>
+          </div>
+          <div class="timeline-track">
+            <i class="clip clip-a"></i>
+            <i class="clip clip-b"></i>
+            <i class="clip clip-c"></i>
+            <i class="clip clip-d"></i>
+            <b class="playhead"></b>
+            <em class="cut-marker cut-one">Corte</em>
+            <em class="cut-marker cut-two">Hook</em>
+            <em class="audio-wave"></em>
+          </div>
+          <p>O trabalho passa por curadoria: ele identifica os trechos com mais potencial, corta o excesso e transforma o material em vídeos curtos com ritmo.</p>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <div class="modal hidden" id="videoModal" aria-hidden="true">
+    <button class="modal-close" id="modalClose" type="button" aria-label="Fechar">x</button>
+    <video id="modalVideo" controls playsinline></video>
+  </div>
+
+  <script src="js/app.js"></script>
+</body>
+</html>
